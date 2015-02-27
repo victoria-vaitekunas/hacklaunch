@@ -1,0 +1,13 @@
+<p>thanks dude!<%= fries %></p>
+<p>your email is: <%= burger%> HEY GIRL NICE EMAIL!</p>
+<h2>you are joining the likes of </h2>
+<ul>
+	<!-- do/end is a block ~*justterminologythings*~ -->
+	<% CONTACTS.each_with_index do |milkshake, cherry| %>
+		<li>
+			<%= milkshake %>
+		</li>
+		<%= cherry+1 %>
+	<% end %>
+</ul>
+<%= CONTACTS %>
